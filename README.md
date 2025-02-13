@@ -48,3 +48,9 @@
 - **Library & Framework** : Express
 - **Database** : MongoDB
 - **Deploy** : Fly.io, MongoDB Atlas(database)
+
+<br/>
+
+## ➕ 추가, 수정 예정
+
+**본인인증 기능 추가(소셜 로그인 등)**
