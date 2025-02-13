@@ -1,0 +1,48 @@
+.HeaderWrapper {
+    flex: 1;
+    width: 100%;
+    max-width: 1920px;
+    background-color: #fffce3;
+    padding: 18px 64px;
+
+    .HeaderInn {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logoContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2px;
+
+        .logoIcon {
+            width: 64px;
+            height: 64px;
+        }
+
+        .logoTitle {
+            width: 217px;
+            height: 50px;
+        }
+    }
+
+    .loginContainer {
+        display: flex;
+        align-items: center;
+
+        .imageBox {
+            display: flex;
+            align-items: center;
+            gap: 8px; /* 텍스트와 아이콘 간 간격 */
+
+            .loginIcon {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+    }
+}

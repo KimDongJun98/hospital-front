@@ -1,0 +1,88 @@
+.productRegisterWrapper {
+    margin: 0 auto;
+    padding-bottom: 419px;
+
+    .productRegisterSection {
+        max-width: 1080px;
+        padding: 0 16px;
+
+        .productRegisterTitle {
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 50px;
+            text-align: center;
+            padding-bottom: 64px;
+
+            @media (max-width: 550px) {
+                font-size: 40px;
+            }
+        }
+
+        .productRegisterContainer {
+            background-color: #ffffff;
+            padding: 48px 64px;
+            margin: 0 auto;
+            border-radius: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+            .productRegisterInput {
+                padding-bottom: 24px;
+            }
+
+            .productSelectContainer {
+                padding-bottom: 64px;
+
+                .productSelectTitle {
+                    padding-bottom: 12px;
+                }
+
+                .productSelect {
+                    white-space: nowrap;
+                    flex-wrap: wrap;
+                    display: flex;
+                    gap: 12px;
+                }
+
+                .productSelect label {
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                }
+
+                .productSelect input[type="checkbox"] {
+                    appearance: none;
+                    -webkit-appearance: none;
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid #000;
+                    background-color: #fff;
+                    cursor: pointer;
+                    display: inline-block;
+                    position: relative;
+                }
+
+                .productSelect input[type="checkbox"]:checked {
+                    background-color: #fff;
+                    border-color: #000;
+                }
+
+                .productSelect input[type="checkbox"]:checked::before {
+                    content: "✔";
+                    font-size: 12px;
+                    color: #000;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .registerBtn {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .errorMessage {
+            color: #ff0000;
+        }
+    }
+}

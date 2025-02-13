@@ -1,0 +1,30 @@
+.inputWrapper {
+  width: 423px;
+  height: 88px;
+
+  .inputTitle {
+    padding-bottom: 12px;
+    line-height: 28px;
+  }
+
+  .inputEmail {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    gap: 12px;
+
+    .dropDown,
+    .emailInput {
+      width: 136px;
+      height: 48px;
+      border: 1px solid #dddddd;
+      padding: 8px 12px;
+    }
+  }
+
+  .requiredSymbol {
+    color: red;
+    font-size: 16px;
+    margin-left: 4px;
+  }
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url("./reset.css");
+
+:root {
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    --black: #000000;
+    --gray900: #191919;
+    --gray800: #333333;
+    --gray700: #4c4c4c;
+    --gray600: #666666;
+    --gray500: #7f7f7f;
+    --gray400: #999999;
+    --gray300: #b2b2b2;
+    --gray200: #cccccc;
+    --gray100: #e5e5e5;
+    --gray50: #f6f6f6;
+    --gray10: #fafafa;
+    --white: #ffffff;
+
+    --xx-large: 1.5rem;
+    --x-large: 1.25rem;
+    --large: 1.125rem;
+    --medium: 1rem;
+    --samll: 0.875rem;
+    --x-small: 0.625rem;
+
+    --main-color: #ffea3c;
+    --sub-color: #fffce3;
+
+    --errors: #ff0045;
+}
+/** daypicker css*/
+* {
+    --rdp-today-color: #000000;
+    --rdp-accent-color: #000000;
+    --rdp-accent-background-color: #000000;
+    --rdp-selected-border: 1px solid #000000;
+    --rdp-weekday-padding: 20px;
+    --rdp-outline: #000000;
+    --rdp-weekday-text-align: center;
+    --rdp-day-width: 50px;
+    --rdp-day-height: 50px;
+}

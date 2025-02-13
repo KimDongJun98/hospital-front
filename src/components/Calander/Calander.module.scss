@@ -1,0 +1,33 @@
+.calanderWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 400px;
+    height: 1102px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #ffffff;
+    padding-top: 5px;
+}
+
+// .react-datepicker__weekday {
+//     font-size: 11px;
+//     line-height: 13px;
+//     text-align: center;
+// }
+
+// .react-datepicker__day {
+//     font-size: 16px;
+// }
+
+// .react-datepicker__nav {
+//     display: none;
+// }
+
+// .react-datepicker__month_caption {
+//     margin: 0 auto;
+//     padding-bottom: 28px;
+//     font-size: 18px;
+// }

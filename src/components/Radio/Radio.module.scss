@@ -1,0 +1,58 @@
+.Radio {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 7px;
+    border: 2px solid #ffea3c;
+    gap: 8px;
+    cursor: pointer;
+    color: #cccccc;
+
+    &.nonBorder {
+        border: none;
+        &.check {
+            border: none;
+        }
+    }
+
+    &.check {
+        color: #666666;
+    }
+}
+
+.RadioMark {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    &.check {
+        border: 5px solid #000000;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #cccccc;
+    }
+
+    &.check::after {
+        background-color: #ffea3c;
+    }
+}
+
+.Label {
+    display: flex;
+    text-align: justify;
+    justify-content: left;
+    flex-direction: column;
+    font-weight: 400;
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.hospitalListWrapper {
+  margin: 0 auto;
+  padding-bottom: 64px;
+
+  .hospitalListSection {
+    max-width: 1080px;
+    padding: 0 16px;
+
+    .hospitalListTitle {
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 50px;
+      text-align: center;
+      padding-bottom: 64px;
+
+      @media (max-width: 550px) {
+        font-size: 40px;
+      }
+    }
+
+    .hospitalListContainer {
+      width: 100%;
+      background-color: #ffffff;
+      overflow: hidden;
+      margin: 0 auto;
+      border-radius: 24px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+      .hospitalBtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 14px;
+        flex: 1;
+        padding: 0px 64px 48px;
+      }
+    }
+
+    .listContainer {
+      padding: 48px 64px 0px;
+    }
+
+    .hospital {
+      width: 100%;
+      background-color: #ffffff;
+      overflow: hidden;
+      margin: 30px auto;
+      border-radius: 24px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      // display: flex;
+      flex-direction: column;
+
+      flex-wrap: wrap;
+      padding: 20px;
+
+      .hospitalDetail {
+        padding-bottom: 8px;
+      }
+
+      .hospitalName {
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 20px;
+      }
+
+      .hospitalPrice {
+        padding-bottom: 15px;
+      }
+
+      .hospitalDescription {
+        padding-bottom: 15px;
+      }
+
+      .hospitalInfo {
+        flex: 1;
+        min-width: 200px;
+      }
+
+      .productList {
+        div {
+          border-bottom: 1px solid #ddd;
+          padding: 16px 0;
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+
+      .productName {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 0px;
+      }
+
+      .productDetail {
+        padding-bottom: 8px;
+      }
+
+      @media (max-width: 1070px) {
+        .hospitalBtn {
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}

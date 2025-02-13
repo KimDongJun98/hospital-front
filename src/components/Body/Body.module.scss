@@ -1,0 +1,15 @@
+.layoutWrapper {
+    // max-width: 1920px;
+    width: 100%;
+    height: 433px;
+    background-color: #fffce3;
+    position: relative;
+    z-index: 1;
+
+    .fabWrapper {
+        position: fixed;
+        top: 195px;
+        right: 64px;
+        z-index: 999;
+    }
+}

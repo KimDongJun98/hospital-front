@@ -1,0 +1,271 @@
+.reservationWrapper {
+  margin: 0 auto;
+  padding-bottom: 64px;
+
+  .reservationSection {
+    max-width: 1080px;
+
+    .reservationTitle {
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 50px;
+      text-align: center;
+      padding-bottom: 64px;
+    }
+
+    .reservationContainer {
+      display: flex;
+      flex-direction: column;
+      padding: 48px 12px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border-radius: 24px;
+
+      .reservationForm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+
+        @media (max-width: 1080px) {
+          grid-template-columns: 1fr;
+        }
+
+        .calander {
+          height: 1100px;
+          padding: 24px 48px;
+          border-right: 2px solid #eeeeee;
+
+          @media (max-width: 1080px) {
+            border-right: none;
+            padding-bottom: 50px;
+          }
+        }
+
+        .reservationInfo {
+          padding: 24px 48px;
+
+          .reservationContent {
+            font-size: 24px;
+            padding-bottom: 24px;
+          }
+
+          .hospital {
+            text-align: left;
+            font-weight: 400;
+            line-height: 22px;
+            padding-bottom: 12px;
+          }
+
+          .product {
+            font-weight: 400;
+            line-height: 22px;
+            padding-bottom: 12px;
+          }
+
+          .price {
+            font-weight: 400;
+            line-height: 22px;
+            padding-bottom: 64px;
+          }
+
+          .reservationUser {
+            font-size: 24px;
+            padding-bottom: 24px;
+          }
+
+          .reservationDetail {
+            font-weight: 400;
+            line-height: 22px;
+            padding-bottom: 24px;
+          }
+
+          .reservatioBtn {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 64px;
+          }
+
+          .reservatioInput {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-bottom: 64px;
+          }
+
+          .radioContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .radioGroup {
+              display: flex;
+              gap: 15px;
+            }
+          }
+
+          .requiredSymbol {
+            color: red;
+            font-size: 16px;
+            margin-left: 4px;
+          }
+
+          .address_section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 16px;
+
+            .requiredSymbol {
+              color: red;
+              font-size: 16px;
+              margin-left: 4px;
+            }
+
+            .address_label {
+              font-size: 14px;
+              color: #333;
+            }
+            .zipcode_group {
+              display: flex;
+              flex-direction: row;
+              gap: 8px;
+              align-items: flex-end;
+
+              .search_btn {
+                height: 40px;
+                padding: 0 16px;
+                font-size: 14px;
+                white-space: nowrap;
+              }
+            }
+
+            .errorMessage {
+              font-size: 14px;
+              color: red;
+              margin-top: 4px;
+            }
+          }
+
+          .checkupContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .checkupContent {
+              font-size: 24px;
+              line-height: 40px;
+            }
+
+            .requiredSymbol {
+              color: red;
+              font-size: 16px;
+              margin-left: 4px;
+            }
+
+            .radioContainer {
+              display: flex;
+              flex-direction: column;
+              gap: 15px;
+            }
+
+            .reservationCard {
+              display: flex;
+              flex-direction: row;
+              gap: 12px;
+            }
+          }
+
+          .time_section {
+            margin-top: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            p {
+              font-size: 16px;
+              font-weight: 500;
+              color: #333;
+
+              .requiredSymbol {
+                color: red;
+                font-size: 16px;
+                margin-left: 4px;
+              }
+            }
+
+            .timePicker {
+              width: 100%;
+              height: 48px;
+              padding: 0 12px;
+              border: 1px solid #cccccc;
+              border-radius: 4px;
+              font-size: 16px;
+              color: #333;
+              background-color: #ffffff;
+
+              &:focus {
+                outline: none;
+                border-color: #ffea3c;
+                box-shadow: 0 0 4px rgba(255, 234, 60, 0.8);
+              }
+
+              option {
+                font-size: 16px;
+                color: #333;
+              }
+            }
+
+            .errorMessage {
+              font-size: 14px;
+              color: red;
+              margin-top: 4px;
+            }
+          }
+        }
+
+        .errorMessage {
+          font-size: 14px;
+          color: red;
+          margin-top: 0px;
+        }
+      }
+      .reservationBtn {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+      }
+    }
+  }
+}
+
+/** 주소 검색 팝업*/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.postcode_wrap {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.close_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

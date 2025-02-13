@@ -1,0 +1,25 @@
+.searchBarWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    .searchInput {
+        width: 250px;
+        height: 45px;
+        border-radius: 12px;
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        padding-left: 10px;
+    }
+
+    .searchBtn {
+        font-size: 18px;
+        font-weight: bold;
+        width: 56px;
+        height: 45px;
+        background-color: #ffea3c;
+        border-radius: 12px;
+        border: 1px solid #cccccc;
+    }
+}

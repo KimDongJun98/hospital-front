@@ -1,0 +1,61 @@
+.login_wrap {
+    margin: 0 auto;
+    padding-bottom: 419px;
+}
+
+.tit {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.login_form {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+    .input_group {
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            margin-bottom: 30px;
+        }
+    }
+
+    .password_help {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 8px;
+    }
+
+    .forgot_password {
+        font-size: 14px;
+        color: #666;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .button_group {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+
+        button {
+            flex: 1;
+            height: 48px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .errorMessage {
+        font-size: 13px;
+        color: #ff0000;
+    }
+}

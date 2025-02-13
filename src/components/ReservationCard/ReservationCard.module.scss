@@ -1,0 +1,23 @@
+.reservationCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 12px 1px 12px;
+    gap: 10px;
+    width: 210px;
+    height: 125px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+
+    .cardTitle {
+        line-height: 20px;
+    }
+    .cardImg {
+        width: 76px;
+        height: 76px;
+    }
+    &:hover {
+        background-color: #f5f5f5;
+    }
+}
