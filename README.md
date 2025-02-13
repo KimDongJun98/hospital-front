@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 병원 예약 시스템 구현 프로젝트
+기간 : 2024.09 ~ 2025.02 (3개월)
 
-## Getting Started
 
-First, run the development server:
+## 🔨 프로젝트 구조
+![프로젝트 구조](https://github.com/user-attachments/assets/6d2586b0-9b3c-4032-a384-7675bcfde105)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![역할](https://github.com/user-attachments/assets/d57f0dbe-7748-499a-b4b2-f751a782e29e)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Frontend**
+- **Language** : TypeScript
+- **Environment** : Next.js
+- **Library & Framework** : React, Styled-Components, Axios
+- **Deploy** : Vercel
+<br/>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Backend**
+- **Language** : TypeScript
+- **Environment** : Node.js
+- **Library & Framework** : Express
+- **Database** : MongoDB
+- **Deploy** : Fly.io, MongoDB Atlas(database)
