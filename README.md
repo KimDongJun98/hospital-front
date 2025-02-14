@@ -22,7 +22,7 @@
 - **로그인(병원/관리자)** : 병원/관리자 로그인
 ![로그인](https://github.com/user-attachments/assets/d019d2d0-0a51-4b47-88c9-c714f284cf7c)
 
--**예약 리스트(병원/관리자)** : 예약 확인, 취소 가능
+- **예약 리스트(병원/관리자)** : 예약 확인, 취소 가능
 ![예약 리스트](https://github.com/user-attachments/assets/4bea79e7-69ef-4602-83ab-f7f81db1ffd2)
 
 <br/>
